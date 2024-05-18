@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>Lxy的个人主页</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            line-height: 1.6em;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #50b3a2;
+            color: white;
+            padding: 10px 0;
+        }
+        header h1 {
+            margin: 0;
+            padding-left: 20px;
+        }
+        nav {
+            background: #333;
+            padding: 10px 0;
+        }
+        nav ul {
+            padding: 0;
+            list-style: none;
+        }
+        nav ul li {
+            display: inline;
+            padding: 0 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+            background-color: #fff;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Lxy的个人主页</h1>
+        </div>
+    </header>
+    
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#profile">个人资料</a></li>
+                <li><a href="#hobbies">爱好</a></li>
+                <li><a href="#lover">爱人</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <section id="profile">
+            <h2>个人资料</h2>
+            <p>姓名：Lxy</p>
+            <p>生日：2009年08月08日</p>
+        </section>
+        
+        <section id="hobbies">
+            <h2>爱好</h2>
+            <p>IT技术</p>
+        </section>
+        
+        <section id="lover">
+            <h2>爱人</h2>
+            <p>Zqy</p>
+        </section>
+    </div>
+</body>
+</html>
